@@ -1,6 +1,10 @@
+**Setup**
+
+`apt-get install ffmpeg lame`
+
 **Convert WAV to MP3**
 
-`ffmp3g -i input.wav -acodec mp3 output.mp3`
+`ffmpeg -i input.wav -acodec mp3 output.mp3`
 
 **Cut MP3 at given time (40 seconds)** 
 
