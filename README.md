@@ -1,5 +1,5 @@
 # audio
 Some useful linux audio scripts
 
-- [shell scripts](https://github.com/fabriziosalmi/audio/blob/master/scripts.md)
-- [libs](https://github.com/fabriziosalmi/audio/blob/master/libs.php)
+- [docs and examples](https://github.com/fabriziosalmi/audio/blob/master/scripts.md)
+- [PHP libs](https://github.com/fabriziosalmi/audio/blob/master/libs.php)
