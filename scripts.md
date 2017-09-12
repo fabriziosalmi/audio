@@ -1,6 +1,6 @@
 **Setup**
 
-`apt-get install ffmpeg lame sox`
+`apt-get install -y ffmpeg lame sox libsox-fmt-mp3`
 
 **Convert WAV to MP3**
 
