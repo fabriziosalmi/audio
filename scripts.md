@@ -33,6 +33,8 @@ function fade_out($mp3_raw, $mp3_faded) {
   $fademp3 = "sox ".$mp3_raw." ".$mp3_faded." fade 0 35 5";
   exec($fademp3);
 }
+
+?>
 ```
 Example use:
 
