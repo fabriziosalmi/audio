@@ -2,19 +2,21 @@
 
 `apt-get install -y ffmpeg lame sox libsox-fmt-mp3`
 
-**Convert WAV to MP3**
+**CLI**
+
+Convert WAV to MP3
 
 `ffmpeg -i input.wav -acodec mp3 output.mp3`
 
-**Cut MP3 at given time (40 seconds)** 
+Cut MP3 at given time (40 seconds)
 
 `ffmpeg -t 40 -i input.mp3 -acodec copy output.mp3`
 
-**Fade out the MP3 file (last 5 seconds)**
+Fade out the MP3 file (last 5 seconds)
 
 `sox input.mp3 output.mp3 fade 0 35 5`
 
-**PHP library**
+**PHP**
 
 ```
 <?php
