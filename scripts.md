@@ -41,6 +41,10 @@ function fade_out($mp3_raw, $mp3_faded) {
 Example use:
 
 ```
+<?php
+// include libs
+include("https://raw.githubusercontent.com/fabriziosalmi/audio/master/libs.php");
+
 // set input and output files
 $wav_input = "/var/www/wav_file.wav";
 $mp3_output = "/var/www/mp3_file.mp3";
@@ -53,4 +57,5 @@ $mp3_faded = "/var/www/mp3/faded_file.mp3";
 convert_wav2mp3($wav_input, $mp3_output);
 cut_mp3($mp3_input, $mp3_final);
 fade_out($mp3_raw, $mp3_faded);
+?>
 ```
