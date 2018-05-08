@@ -15,4 +15,7 @@ function fade_out($mp3_raw, $mp3_faded) {
   exec($fademp3);
 }
 
+function merge() {
+ exec('ffmpeg -i "concat:/path/to/file1.mp3|/path/to/file2.mp3" -acodec copy output.mp3')
+}
 ?>
